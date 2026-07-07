@@ -23,6 +23,30 @@ The assessment was performed in a controlled lab environment using machines owne
 
 ---
 
+## What is Nmap?
+**Nmap (Network Mapper)** is a free, open-source tool used by security professionals to discover devices on a network and find open ports and security vulnerabilities. It acts like a digital radar that scans a network to see what devices are active, what software they are running, and how well they are protected.
+
+## Why Nmap is Used?
+Network administrators, security engineers, and ethical hackers use Nmap for several core tasks:
+- Network Discovery: Automatically maps out all devices (like computers, servers, routers, and smart devices) connected to a specific network.
+
+- Port Scanning: Checks which "doors" (ports) on a computer are open, which helps identify active services like web servers (Port 80/443) or file sharing.
+
+- Operating System Detection: Figures out exactly what operating system (e.g., Windows 11, Ubuntu Linux, macOS) a target device is running.
+
+- Vulnerability Assessment: Finds outdated software or misconfigured settings that hackers could exploit.
+
+## Ethical Guidelines for Using Nmap
+Because Nmap can gather sensitive details about a network, it can easily be misused. Scanning a network without proper permission is often considered illegal or a violation of service terms.
+Follow these strict ethical rules when using Nmap:
+
+* Get Written Permission First: Never scan a network, website, or IP address that you do not own unless you have explicit, written authorization from the owner.
+* Stick to Your Target Scope: Only scan the exact IP addresses, ranges, or domains you were allowed to test. Do not look at neighboring networks. 
+* Minimize Network Disruption: Heavy or aggressive scans can slow down networks, crash older devices, or trigger security alarms. Use gentle scanning speeds.  
+* Protect the Data You Find: The information gathered by Nmap (like open ports and software versions) is a roadmap for hackers. Keep your scan logs secure. 
+* Use Legal Practice Environments: If you want to learn how to use Nmap safely, practice on your own home router, set up virtual machines (like VirtualBox), or use official, legal training sites like [Hack The Box](https://www.hackthebox.com/) or [TryHackMe](https://tryhackme.com/).
+
+
 ## 🎯 Objectives
 
 - Install and verify Nmap

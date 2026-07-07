@@ -1,0 +1,424 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+nmap is already the newest version (7.99+dfsg-1kali1).
+Solving dependencies...
+The following packages were automatically installed and are no longer required:
+  enchant-2
+  firmware-marvell-prestera
+  gccgo-14
+  gccgo-14-x86-64-linux-gnu
+  kded5
+  kio
+  libabsl20240722
+  libbabeltrace1
+  libboost-chrono1.88.0
+  libboost-filesystem1.88.0
+  libboost-program-options1.88.0
+  libboost-thread1.88.0
+  libdbusmenu-qt5-2
+  libgdal38
+  libgexiv2-2
+  libgo-14-dev
+  libgo23
+  libio-pty-perl
+  libipc-run-perl
+  libiptcdata0
+  libjcat1
+  libkf5bookmarks-data
+  libkf5bookmarks5
+  libkf5completion-data
+  libkf5completion5
+  libkf5crash5
+  libkf5dbusaddons-bin
+  libkf5dbusaddons-data
+  libkf5dbusaddons5
+  libkf5doctools5
+  libkf5globalaccel-bin
+  libkf5globalaccel-data
+  libkf5globalaccel5
+  libkf5itemviews-data
+  libkf5itemviews5
+  libkf5jobwidgets-data
+  libkf5jobwidgets5
+  libkf5kiocore5
+  libkf5kiofilewidgets5
+  libkf5kiogui5
+  libkf5kiontlm5
+  libkf5kiowidgets5
+  libkf5notifications-data
+  libkf5notifications5
+  libkf5service-bin
+  libkf5service-data
+  libkf5service5
+  libkf5solid5
+  libkf5solid5-data
+  libkf5sonnet5-data
+  libkf5sonnetcore5
+  libkf5sonnetui5
+  libkf5textwidgets-data
+  libkf5textwidgets5
+  libkf5wallet-bin
+  libkf5wallet-data
+  libkf5wallet5
+  libkf5xmlgui-bin
+  libkf5xmlgui-data
+  libkf5xmlgui5
+  libllhttp9.3
+  libpoppler147
+  libpostal-data
+  libpostal1
+  libqmobipocket6-2
+  libqt5qmlworkerscript5
+  libqt5texttospeech5
+  libqt6quicktest6
+  libraw23t64
+  libsdl2-classic
+  libsimdutf31
+  libsodium23
+  libspatialaudio0t64
+  libsvtav1enc2
+  libteamdctl0
+  libunibreak6
+  libvidstab1.1
+  libx265-215
+  libxmlsec1-1
+  libxmlsec1-openssl1
+  libzxing3
+  linux-base-6.18.12+kali-amd64
+  linux-image-6.18.12+kali-amd64
+  openjdk-21-jre
+  openjdk-21-jre-headless
+  postgresql-common-dev
+  python3-pluginbase
+  python3-pysnmp4
+  python3-tz
+  qml-module-org-kde-kirigami2
+  qml-module-org-kde-qqc2desktopstyle
+  qml-module-org-kde-sonnet
+  qml-module-qtgraphicaleffects
+  qml-module-qtqml-models2
+  qml-module-qtquick-controls2
+  qml-module-qtquick-layouts
+  qml-module-qtquick-templates2
+  qml-module-qtquick-window2
+  qml-module-qtquick2
+  qml6-module-org-kde-kirigamiaddons-tableview
+  qml6-module-org-kde-people
+  qml6-module-qttest
+  qtspeech5-speechd-plugin
+  sonnet-plugins
+Use 'sudo apt autoremove' to remove them.
+
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 39
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-07 18:40 +0530
+Nmap scan report for 192.168.56.101
+Host is up (0.00016s latency).
+Not shown: 977 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+23/tcp   open  telnet
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+512/tcp  open  exec
+513/tcp  open  login
+514/tcp  open  shell
+1099/tcp open  rmiregistry
+1524/tcp open  ingreslock
+2049/tcp open  nfs
+2121/tcp open  ccproxy-ftp
+3306/tcp open  mysql
+5432/tcp open  postgresql
+5900/tcp open  vnc
+6000/tcp open  X11
+6667/tcp open  irc
+8009/tcp open  ajp13
+8180/tcp open  unknown
+MAC Address: 08:00:27:13:E2:5B (Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.69 seconds
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-07 18:41 +0530
+Nmap scan report for 192.168.56.101
+Host is up (0.00053s latency).
+Not shown: 977 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+23/tcp   open  telnet
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+512/tcp  open  exec
+513/tcp  open  login
+514/tcp  open  shell
+1099/tcp open  rmiregistry
+1524/tcp open  ingreslock
+2049/tcp open  nfs
+2121/tcp open  ccproxy-ftp
+3306/tcp open  mysql
+5432/tcp open  postgresql
+5900/tcp open  vnc
+6000/tcp open  X11
+6667/tcp open  irc
+8009/tcp open  ajp13
+8180/tcp open  unknown
+MAC Address: 08:00:27:13:E2:5B (Oracle VirtualBox virtual NIC)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.33
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 2.02 seconds
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-07 18:41 +0530
+Nmap scan report for 192.168.56.101
+Host is up (0.0014s latency).
+Not shown: 977 closed tcp ports (reset)
+PORT     STATE SERVICE     VERSION
+21/tcp   open  ftp         vsftpd 2.3.4
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 192.168.56.1
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      vsFTPd 2.3.4 - secure, fast, stable
+|_End of status
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+22/tcp   open  ssh         OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 60:0f:cf:e1:c0:5f:6a:74:d6:90:24:fa:c4:d5:6c:cd (DSA)
+|_  2048 56:56:24:0f:21:1d:de:a7:2b:ae:61:b1:24:3d:e8:f3 (RSA)
+23/tcp   open  telnet      Linux telnetd
+25/tcp   open  smtp        Postfix smtpd
+| ssl-cert: Subject: commonName=ubuntu804-base.localdomain/organizationName=OCOSA/stateOrProvinceName=There is no such thing outside US/countryName=XX
+| Not valid before: 2010-03-17T14:07:45
+|_Not valid after:  2010-04-16T14:07:45
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+|     SSL2_RC2_128_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_RC4_128_EXPORT40_WITH_MD5
+|_    SSL2_DES_192_EDE3_CBC_WITH_MD5
+|_smtp-commands: metasploitable.localdomain, PIPELINING, SIZE 10240000, VRFY, ETRN, STARTTLS, ENHANCEDSTATUSCODES, 8BITMIME, DSN
+|_ssl-date: 2026-07-06T21:23:11+00:00; -15h48m25s from scanner time.
+53/tcp   open  domain      ISC BIND 9.4.2
+| dns-nsid: 
+|_  bind.version: 9.4.2
+80/tcp   open  http        Apache httpd 2.2.8 ((Ubuntu) DAV/2)
+|_http-title: Metasploitable2 - Linux
+|_http-server-header: Apache/2.2.8 (Ubuntu) DAV/2
+111/tcp  open  rpcbind     2 (RPC #100000)
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2            111/tcp   rpcbind
+|   100000  2            111/udp   rpcbind
+|   100003  2,3,4       2049/tcp   nfs
+|   100003  2,3,4       2049/udp   nfs
+|   100005  1,2,3      34637/tcp   mountd
+|   100005  1,2,3      56262/udp   mountd
+|   100021  1,3,4      40373/tcp   nlockmgr
+|   100021  1,3,4      59478/udp   nlockmgr
+|   100024  1          45834/tcp   status
+|_  100024  1          53097/udp   status
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 3.0.20-Debian (workgroup: WORKGROUP)
+512/tcp  open  exec        netkit-rsh rexecd
+513/tcp  open  login
+514/tcp  open  shell       Netkit rshd
+1099/tcp open  java-rmi    GNU Classpath grmiregistry
+1524/tcp open  bindshell   Metasploitable root shell
+2049/tcp open  nfs         2-4 (RPC #100003)
+2121/tcp open  ftp         ProFTPD 1.3.1
+3306/tcp open  mysql       MySQL 5.0.51a-3ubuntu5
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.0.51a-3ubuntu5
+|   Thread ID: 24
+|   Capabilities flags: 43564
+|   Some Capabilities: Support41Auth, SupportsCompression, Speaks41ProtocolNew, ConnectWithDatabase, LongColumnFlag, SupportsTransactions, SwitchToSSLAfterHandshake
+|   Status: Autocommit
+|_  Salt: 3}>Z/v'^%92-,2W@x^OQ
+5432/tcp open  postgresql  PostgreSQL DB 8.3.0 - 8.3.7
+| ssl-cert: Subject: commonName=ubuntu804-base.localdomain/organizationName=OCOSA/stateOrProvinceName=There is no such thing outside US/countryName=XX
+| Not valid before: 2010-03-17T14:07:45
+|_Not valid after:  2010-04-16T14:07:45
+|_ssl-date: 2026-07-06T21:23:12+00:00; -15h48m25s from scanner time.
+5900/tcp open  vnc         VNC (protocol 3.3)
+| vnc-info: 
+|   Protocol version: 3.3
+|   Security types: 
+|_    VNC Authentication (2)
+6000/tcp open  X11         (access denied)
+6667/tcp open  irc         UnrealIRCd
+8009/tcp open  ajp13       Apache Jserv (Protocol v1.3)
+|_ajp-methods: Failed to get a valid response for the OPTION request
+8180/tcp open  http        Apache Tomcat/Coyote JSP engine 1.1
+|_http-title: Apache Tomcat/5.5
+|_http-favicon: Apache Tomcat
+|_http-server-header: Apache-Coyote/1.1
+MAC Address: 08:00:27:13:E2:5B (Oracle VirtualBox virtual NIC)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.33
+Network Distance: 1 hop
+Service Info: Hosts:  metasploitable.localdomain, irc.Metasploitable.LAN; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: mean: -14h48m25s, deviation: 1h59m59s, median: -15h48m25s
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+| smb-os-discovery: 
+|   OS: Unix (Samba 3.0.20-Debian)
+|   Computer name: metasploitable
+|   NetBIOS computer name: 
+|   Domain name: localdomain
+|   FQDN: metasploitable.localdomain
+|_  System time: 2026-07-06T17:23:01-04:00
+|_nbstat: NetBIOS name: METASPLOITABLE, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.38 ms 192.168.56.101
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 23.66 seconds
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-07 18:41 +0530
+Nmap scan report for 192.168.56.101
+Host is up (0.00033s latency).
+Not shown: 977 closed tcp ports (reset)
+PORT     STATE SERVICE     VERSION
+21/tcp   open  ftp         vsftpd 2.3.4
+22/tcp   open  ssh         OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
+23/tcp   open  telnet      Linux telnetd
+25/tcp   open  smtp        Postfix smtpd
+53/tcp   open  domain      ISC BIND 9.4.2
+80/tcp   open  http        Apache httpd 2.2.8 ((Ubuntu) DAV/2)
+111/tcp  open  rpcbind     2 (RPC #100000)
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+512/tcp  open  exec        netkit-rsh rexecd
+513/tcp  open  login       OpenBSD or Solaris rlogind
+514/tcp  open  shell       Netkit rshd
+1099/tcp open  java-rmi    GNU Classpath grmiregistry
+1524/tcp open  bindshell   Metasploitable root shell
+2049/tcp open  nfs         2-4 (RPC #100003)
+2121/tcp open  ftp         ProFTPD 1.3.1
+3306/tcp open  mysql       MySQL 5.0.51a-3ubuntu5
+5432/tcp open  postgresql  PostgreSQL DB 8.3.0 - 8.3.7
+5900/tcp open  vnc         VNC (protocol 3.3)
+6000/tcp open  X11         (access denied)
+6667/tcp open  irc         UnrealIRCd
+8009/tcp open  ajp13       Apache Jserv (Protocol v1.3)
+8180/tcp open  http        Apache Tomcat/Coyote JSP engine 1.1
+MAC Address: 08:00:27:13:E2:5B (Oracle VirtualBox virtual NIC)
+Service Info: Hosts:  metasploitable.localdomain, irc.Metasploitable.LAN; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 12.56 seconds
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-07 18:42 +0530
+Nmap scan report for 192.168.56.101
+Host is up (0.00030s latency).
+Not shown: 977 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+23/tcp   open  telnet
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+512/tcp  open  exec
+513/tcp  open  login
+514/tcp  open  shell
+1099/tcp open  rmiregistry
+1524/tcp open  ingreslock
+2049/tcp open  nfs
+2121/tcp open  ccproxy-ftp
+3306/tcp open  mysql
+5432/tcp open  postgresql
+5900/tcp open  vnc
+6000/tcp open  X11
+6667/tcp open  irc
+8009/tcp open  ajp13
+8180/tcp open  unknown
+MAC Address: 08:00:27:13:E2:5B (Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.70 seconds
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-07 18:42 +0530
+Nmap scan report for 192.168.56.101
+Host is up (0.000089s latency).
+Not shown: 65505 closed tcp ports (reset)
+PORT      STATE SERVICE
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+53/tcp    open  domain
+80/tcp    open  http
+111/tcp   open  rpcbind
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+1099/tcp  open  rmiregistry
+1524/tcp  open  ingreslock
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+3306/tcp  open  mysql
+3632/tcp  open  distccd
+5432/tcp  open  postgresql
+5900/tcp  open  vnc
+6000/tcp  open  X11
+6667/tcp  open  irc
+6697/tcp  open  ircs-u
+8009/tcp  open  ajp13
+8180/tcp  open  unknown
+8787/tcp  open  msgsrvr
+34637/tcp open  unknown
+40373/tcp open  unknown
+42243/tcp open  unknown
+45834/tcp open  unknown
+MAC Address: 08:00:27:13:E2:5B (Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 1.44 seconds
+PING 192.168.56.101 (192.168.56.101) 56(84) bytes of data.
+64 bytes from 192.168.56.101: icmp_seq=1 ttl=64 time=0.298 ms
+64 bytes from 192.168.56.101: icmp_seq=2 ttl=64 time=0.696 ms
+64 bytes from 192.168.56.101: icmp_seq=3 ttl=64 time=0.616 ms
+64 bytes from 192.168.56.101: icmp_seq=4 ttl=64 time=0.559 ms
+64 bytes from 192.168.56.101: icmp_seq=5 ttl=64 time=0.503 ms
+64 bytes from 192.168.56.101: icmp_seq=6 ttl=64 time=0.342 ms
+64 bytes from 192.168.56.101: icmp_seq=7 ttl=64 time=0.574 ms
+64 bytes from 192.168.56.101: icmp_seq=8 ttl=64 time=0.660 ms
+64 bytes from 192.168.56.101: icmp_seq=9 ttl=64 time=0.353 ms
+64 bytes from 192.168.56.101: icmp_seq=10 ttl=64 time=0.396 ms
+
+--- 192.168.56.101 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9201ms
+rtt min/avg/max/mdev = 0.298/0.499/0.696/0.135 ms

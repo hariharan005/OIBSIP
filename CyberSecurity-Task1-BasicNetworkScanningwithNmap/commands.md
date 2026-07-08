@@ -10,7 +10,27 @@ This document contains all the Nmap commands used during the network scanning as
 
 ---
 
-# 1. Verify Nmap Installation
+# 1.Installation Of Nmap
+
+## Command
+
+```bash
+sudo apt install nmap -y
+```
+
+### Purpose
+
+All the linux based Operating System will come with Nmap Preinstalled if not use the above command to install Nmap in your local machine and start your Network Scanning Journey.
+
+### Expected Output
+
+- Install Nmap
+
+---
+
+---
+
+# 2. Verify Nmap Installation
 
 ## Command
 
@@ -30,7 +50,8 @@ Checks whether Nmap is installed and displays the installed version.
 
 ---
 
-# 2. Verify Network Connectivity
+
+# 3. Verify Network Connectivity
 
 ## Command
 
@@ -56,7 +77,7 @@ Checks whether the target machine is reachable before starting the scan.
 
 ---
 
-# 3. Basic TCP Port Scan
+# 4. Basic TCP Port Scan
 
 ## Command
 
@@ -82,7 +103,7 @@ Performs a basic scan to discover open TCP ports on the target system.
 
 ---
 
-# 4. Service Version Detection
+# 5. Service Version Detection
 
 ## Command
 
@@ -169,7 +190,7 @@ Performs an advanced scan that combines multiple detection techniques.
 ## Command
 
 ```bash
-nmap <target-ip> | tee scans/basic_scan.txt
+nmap <target-ip> | tee -a report/nmap_scan_results.txt
 ```
 
 ### Purpose
@@ -183,7 +204,7 @@ Displays the scan results on the terminal and saves them to a text file simultan
 ## Command
 
 ```bash
-nmap -sV <target-ip> | tee scans/service_version_scan.txt
+nmap -sV <target-ip> | tee -a report/nmap_scan_results.txt
 ```
 
 ### Purpose
@@ -197,7 +218,7 @@ Stores the service version scan results for later analysis.
 ## Command
 
 ```bash
-sudo nmap -O <target-ip> | tee scans/os_detection.txt
+sudo nmap -O <target-ip> | tee -a report/nmap_scan_results.txt
 ```
 
 ### Purpose
@@ -211,7 +232,7 @@ Saves the operating system detection results to a file.
 ## Command
 
 ```bash
-sudo nmap -A <target-ip> | tee scans/aggressive_scan.txt
+sudo nmap -A <target-ip> | tee -a report/nmap_scan_results.txt
 ```
 
 ### Purpose
@@ -230,7 +251,7 @@ Stores the aggressive scan output for documentation and reporting.
 | `nmap -sV <IP>` | Service version detection |
 | `sudo nmap -O <IP>` | Operating system detection |
 | `sudo nmap -A <IP>` | Aggressive scan |
-| `tee` | Save scan results to a file while displaying them |
+| `tee -a` | Save scan results to a file while displaying them and -a will append the data whithout rewriting the file |
 
 ---
 

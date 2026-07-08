@@ -86,16 +86,21 @@ CyberSecurity-Task1-BasicNetworkScanningwithNmap/
 ├── README.md
 ├── commands.md
 │
-├── scans/
-│   ├── basic_scan.txt
-│   ├── service_version_scan.txt
-│   ├── os_detection.txt
-│   └── aggressive_scan.txt
-│
 ├── report/
-│   └── nmap_scan_results.txt
+│   ├── nmap_scan_results.txt
 │
 └── screenshots/
+│   ├── Metasploitabl2VM-IP.png
+│   ├── Nmap-Basic-Scan.png
+│   ├── Nmap-Installation.png
+│   ├── OS-Detection.png
+│   ├── Ping.png
+│   ├── Port-Detection.png
+│   ├── Service-Version-Detection.png
+│   ├── Stealth.png
+│
+│
+│
 ```
 
 ---
@@ -114,7 +119,7 @@ Ubuntu
 
 ```bash
 sudo apt update
-sudo apt install nmap
+sudo apt install nmap -y
 ```
 
 Windows

@@ -1,12 +1,20 @@
 #!/usr/bin/env bash
+
 set -euo pipefail
 
 # Modern, automated UFW configuration script
 # Usage: ufw_configuration.sh [--auto] [--enable] [--disable] [--status]
 
+# Options:
+#   --auto: Automatically enable UFW after configuration
+#   --enable: Enable UFW immediately
+#   --disable: Disable UFW immediately
+#   --status: Show UFW status after configuration
+
 AUTO=false
 SHOW_STATUS=false
 
+# Parse command-line arguments
 while (("$#")); do
 	case "$1" in
 		--auto) AUTO=true; shift ;;
@@ -18,8 +26,16 @@ while (("$#")); do
 	esac
 done
 
+# Check for root privileges
+if [ "$EUID" -ne 0 ]; then
+	echo "This script must be run as root. Please use sudo." >&2
+	exit 1
+fi
+
+# Check if UFW is installed and install it if not
 echo "Starting UFW configuration..."
 
+# Function to check if a command exists
 command_exists() { command -v "$1" >/dev/null 2>&1; }
 
 # Install UFW if not present (supports apt)
@@ -64,6 +80,7 @@ if [ "$AUTO" = true ]; then
 	sudo ufw --force enable
 fi
 
+# Show status if requested
 if [ "$SHOW_STATUS" = true ]; then
 	sudo ufw status verbose
 	sudo ufw status numbered

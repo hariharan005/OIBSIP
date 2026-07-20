@@ -7,6 +7,10 @@
 
 ---
 
+<p align="center">
+  <img src="assets/Task2.png" width="100%">
+</p>
+
 # 📖 Overview
 
 This project was completed as part of the **Oasis Infobyte Security Analyst Internship**.

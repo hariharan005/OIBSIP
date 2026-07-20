@@ -7,6 +7,10 @@
 
 ---
 
+<p align="center">
+  <img src="assets/Task8.png" width="100%">
+</p>
+
 ## 📌 Overview
 
 This project demonstrates how to capture and analyze live network traffic using **Wireshark**. The objective is to inspect different network protocols, understand how devices communicate, identify unencrypted traffic, and analyze the TCP three-way handshake.
